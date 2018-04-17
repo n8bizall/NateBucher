@@ -1,0 +1,11 @@
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Tahoma;
+  }
+  a:hover {
+    background-color: rgb(224, 222, 228);
+    -webkit-text-fill-color: #51647A;
+    padding: 18px 15px;
+  }

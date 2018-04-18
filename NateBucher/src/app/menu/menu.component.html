@@ -1,21 +1,21 @@
 <nav class="navbar navbar-light" style="background-color:  rgb(51, 179, 218);">
    
   <a class="navbar-brand" routerLink="#">
-        <img src="../../assets/images/Nathan-Bucher.gif" width="70" height="70" alt="">
+        <img src="../../assets/images/Nathan-Bucher.gif" width="70" height="70" alt="/home">
       </a>    
     <ul>
       <li *ngFor="let menu of menuItems">
         <app-menu-item [menuItem]="menu"></app-menu-item>
       </li>
-      <li class="nav-item dropdown" ngbDropdown>
-      <a class="nav-link dropdown-toggle" id="dropdown01" ngbDropdownToggle>Projects</a>
-      <div class="dropdown-menu" aria-labelledby="dropdown01" ngbDropdownMenu>
-        <a class="dropdown-item" routerLink="/webim">Web IM eSign</a>
-        <a class="dropdown-item" routerLink="/cem">Customer Experience Management</a>
-        <a class="dropdown-item" routerLink="/crm">MIcrosoft Dynamics CRM</a>
-        <a class="dropdown-item" routerLink="/gdivideo">GDI Video</a>
-        <a class="dropdown-item" routerLink="/gdiwebsite">GDI Website</a>
-        </div>
-        </li>
+      <li id='drop' class="nav-item dropdown" ngbDropdown>
+          <a class="nav-link dropdown-toggle" id="dropdown01" ngbDropdownToggle>Projects</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01" ngbDropdownMenu>
+            <a class="dropdown-item" routerLink="/webim">Web IM eSign</a>
+            <a class="dropdown-item" routerLink="/cem">Customer Experience Management</a>
+            <a class="dropdown-item" routerLink="/crm">MIcrosoft Dynamics CRM</a>
+            <a class="dropdown-item" routerLink="/gdivideo">GDI Video</a>
+            <a class="dropdown-item" routerLink="/gdiwebsite">GDI Website</a>
+            </div>
+            </li>
     </ul>  
   </nav>

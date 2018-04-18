@@ -14,6 +14,7 @@ import { GdiwebsiteComponent } from '../app/gdiwebsite/gdiwebsite.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'/home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent },
   {path: 'about', component: AboutComponent},
   {path: 'resume', component: ResumeComponent},
   {path: 'webim', component: WebimComponent},

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router'; 
 
 @Component({
   selector: 'app-crm',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrmComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
   }

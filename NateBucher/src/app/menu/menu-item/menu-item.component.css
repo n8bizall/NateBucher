@@ -1,8 +1,9 @@
 a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 20px 15px;
     font-family: Tahoma;
+    font-size: 2em;
   }
   a:hover {
     background-color: rgb(224, 222, 228);
